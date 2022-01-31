@@ -1,0 +1,77 @@
+.heading{
+  font-family: 'Licorice',cursive;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.addEntryHeading{
+  font-family: cursive;
+}
+
+.basePage{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.createLogo{
+  margin-left: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: pointer;
+
+}
+
+.createLogo:hover{
+  
+  height: 30px;
+  width: 30px;
+}
+
+.diaryEntry{
+  margin: 10px;
+  font-family: cursive;
+}
+
+.bodyEditor {
+  outline: none;
+  background: #fff;
+  height: fit-content;
+  
+  border: 1px solid rgb(0, 0, 0);
+  
+  padding: 20px;
+  scroll-behavior: auto;
+}
+
+.publishButton{
+  font-family: cursive;
+  border-radius: 20%;
+  border: 1px solid black;
+  margin-left: 100px;
+  vertical-align: middle;
+  font-size: large;
+  cursor: pointer;
+}
+
+.publishButton:hover{
+  background-color: aqua;
+}
+
+.titleInput{
+  width: 500px;
+  padding: 5px;
+  font-size: large;
+  border: 1px solid black;
+}
+
+.entryCard{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.editEntry{
+  cursor: pointer;
+}
